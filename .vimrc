@@ -150,6 +150,12 @@ endfunction
 "let Tlist_WinWidth = 40
 "let tlist_php_settings = 'php;c:class;i:interfaces;d:constant;f:function'
 
+" remap for mac
+nnoremap <c-j> <c-w>j
+nnoremap <c-h> <c-w>h
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+
 map <A-1> :tabn 1<CR>
 map <A-2> :tabn 2<CR>
 map <A-3> :tabn 3<CR>
